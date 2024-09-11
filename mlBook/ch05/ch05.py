@@ -2,7 +2,6 @@
 
 
 import sys
-from python_environment_check import check_packages
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
@@ -34,13 +33,6 @@ sys.path.insert(0, '..')
 
 
 
-d = {
-    'numpy': '1.21.2',
-    'matplotlib': '3.4.3',
-    'sklearn': '1.0',
-    'pandas': '1.3.2'
-}
-check_packages(d)
 
 
 # # Chapter 5 - Compressing Data via Dimensionality Reduction
