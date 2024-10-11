@@ -405,6 +405,7 @@ print('Output Units:\n', y_probas)
 
 
 y_class = np.argmax(Z, axis=0)
+#np.argmax()函数是一个非常有用的函数，它用于返回数组中最大值的索引。寻找每一列的最大值的索引，并将这些索引存储在变量y_class中。
 print('Predicted class label:', y_class) 
 
 
