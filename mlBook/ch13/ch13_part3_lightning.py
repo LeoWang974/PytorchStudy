@@ -3,7 +3,6 @@
 
 from pkg_resources import parse_version
 import sys
-from python_environment_check import check_packages
 import pytorch_lightning as pl
 import torch 
 import torch.nn as nn 
@@ -29,18 +28,6 @@ sys.path.insert(0, '..')
 
 # Check recommended package versions:
 
-
-
-
-
-d = {
-    'torch': '1.8',
-    'torchvision': '0.9.0',
-    'tensorboard': '2.7.0',
-    'pytorch_lightning': '1.5.0',
-    'torchmetrics': '0.6.2'
-}
-check_packages(d)
 
 
 # # Chapter 13: Going Deeper -- the Mechanics of PyTorch (Part 3/3)
