@@ -71,7 +71,7 @@ check_packages(d)
 # If you use our download link, it will download a `celeba.zip` file, 
 # 
 # 1. which you need to unpack in the current directory where you are running the code. 
-# 2. In addition, **please also make sure you unzip the `img_align_celeba.zip` file, which is inside the `celeba` folder.**
+# 2. In addition, **please also make sure you unzip the `celeba.zip` file, which is inside the `celeba` folder.**
 # 3. Also, after downloading and unzipping the celeba folder, you need to run with the setting `download=False` instead of `download=True` (as shown in the code cell below).
 # 
 # In case you are encountering problems with this approach, please do not hesitate to open a new issue or start a discussion at https://github.com/ rasbt/machine-learning-book so that we can provide you with additional information.

@@ -439,7 +439,7 @@ plt.show()
 
 # 1. Downloading the image files manually
 # 
-#     - You can try setting `download=True` below. If this results in a `BadZipfile` error, we recommend downloading the `img_align_celeba.zip` file manually from http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html. In the Google Drive folder, you can find it under the `Img` folder as shown below:
+#     - You can try setting `download=True` below. If this results in a `BadZipfile` error, we recommend downloading the `celeba.zip` file manually from http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html. In the Google Drive folder, you can find it under the `Img` folder as shown below:
 
 
 
